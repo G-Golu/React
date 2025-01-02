@@ -16,11 +16,11 @@ class StateExample2 extends React.Component {
                 txt : "Update Value",
                 clr : "blue",
             });
-        }, 1000);
+        }, 1000); 
 
         setTimeout(() => {
             this.setState({ first : false , second : true ,txt : "Update Value 2", clr : "yellow" });
-    }, 10000);
+    }, 1100);
     }
     render () {
         const { first, second , txt, clr} = this.state;

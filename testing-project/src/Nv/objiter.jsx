@@ -14,22 +14,22 @@ class IterableExample extends React.Component {
     super();
     setTimeout(() => {
       this.setState({ first: "done" });
-    }, 2000);
+    }, 500);
 
     setTimeout(() => {
       this.setState({ second: "done" });
       setTimeout(() => {
         this.setState({ third: "done" });
-      }, 4000);
+      }, 600);
 
       setTimeout(() => {
         this.setState({ fourth: "done" });
-      }, 6000);
+      }, 700);
 
       setTimeout(() => {
         this.setState({ fifth: this.state.donemsg });
-      }, 8000);
-    }, 2000);
+      }, 800);
+    }, 900);
   }
 
   render() {
