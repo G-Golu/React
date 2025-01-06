@@ -2,7 +2,10 @@
 import { createRoot } from 'react-dom/client'
 import './index.css'
 //import StateExamp1 from './Nv/StateExamp1'
-import TableDisp from './Nv/Exercise_1'
+//import TableDisp from './Nv/Exercise_1';
+//import EmailValidator from './Nv/Excersice_1_Tas-2';
+import ToggleTextVisibility from './Nv/Ex_1_T-3';
+import CharacterCounter from './Nv/Ex_1_T-4';
 //import App from './App.jsx'
 //import IterableExample from './Nv/objiter.jsx'
 //import StateExample2 from './Nv/statexamani.jsx'
@@ -16,7 +19,11 @@ createRoot(document.getElementById('root')).render(
    {/*  <IterableExample/>    */}
    {/* <StateExamp1/> */}
 
-   <TableDisp/>
+   {/*<TableDisp/> */}
+      {/*<EmailValidator/> */}
+   <ToggleTextVisibility/>
+   <CharacterCounter/>
+  
   </div>
 )
 // here can multiple file run with one time , should write in 

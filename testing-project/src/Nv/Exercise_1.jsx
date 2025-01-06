@@ -4,7 +4,7 @@
 // 4. create a react pure functional component that will take text input and print total number of characters.
 
 
-// Task: 1. 
+// 1. create  a react pure functional component that will take 2 numbers and print addition, substraction, multiplication and division.
 import { useState } from "react";
 function TableDisp() {
   const [num1, setNum1] = useState(0);
