@@ -1,7 +1,8 @@
 //import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import StateExamp1 from './Nv/StateExamp1'
+//import StateExamp1 from './Nv/StateExamp1'
+import TableDisp from './Nv/Exercise_1'
 //import App from './App.jsx'
 //import IterableExample from './Nv/objiter.jsx'
 //import StateExample2 from './Nv/statexamani.jsx'
@@ -13,7 +14,9 @@ createRoot(document.getElementById('root')).render(
    {/*  <StateExample2/> <br /> */}
    {/*  <StateExample/> */}
    {/*  <IterableExample/>    */}
-   <StateExamp1/>
+   {/* <StateExamp1/> */}
+
+   <TableDisp/>
   </div>
 )
 // here can multiple file run with one time , should write in 
