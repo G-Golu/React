@@ -4,8 +4,11 @@ import './index.css'
 //import StateExamp1 from './Nv/StateExamp1'
 //import TableDisp from './Nv/Exercise_1';
 //import EmailValidator from './Nv/Excersice_1_Tas-2';
-import ToggleTextVisibility from './Nv/Ex_1_T-3';
-import CharacterCounter from './Nv/Ex_1_T-4';
+// import ToggleTextVisibility from './Nv/Ex_1_T-3';
+// import CharacterCounter from './Nv/Ex_1_T-4';
+ //import LmsLearn from './Nv/test';
+import ListComponent from './Nv/useeffectclass';
+
 //import App from './App.jsx'
 //import IterableExample from './Nv/objiter.jsx'
 //import StateExample2 from './Nv/statexamani.jsx'
@@ -21,8 +24,11 @@ createRoot(document.getElementById('root')).render(
 
    {/*<TableDisp/> */}
       {/*<EmailValidator/> */}
-   <ToggleTextVisibility/>
-   <CharacterCounter/>
+   {/*<ToggleTextVisibility/>*/}
+   {/*<CharacterCounter/>*/}
+   {/*<LmsLearn/>*/}
+   <ListComponent/>
+  
   
   </div>
 )
