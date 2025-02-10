@@ -7,13 +7,14 @@ import './index.css'
 // import ToggleTextVisibility from './Nv/Ex_1_T-3';
 // import CharacterCounter from './Nv/Ex_1_T-4';
  //import LmsLearn from './Nv/test';
-import ListComponent from './Nv/useeffectclass';
-
+//import ListComponent from './Nv/useeffectclass';
+import ImageCarousel from './Nv/imagechanger'
 //import App from './App.jsx'
 //import IterableExample from './Nv/objiter.jsx'
 //import StateExample2 from './Nv/statexamani.jsx'
 //import StateExample from './Nv/state.jsx'
 //import IterableExample from './Nv/objiter.jsx'
+import CountdownTimer from './Nv/count_down.jsx'
 createRoot(document.getElementById('root')).render(
   <div>
     
@@ -27,7 +28,10 @@ createRoot(document.getElementById('root')).render(
    {/*<ToggleTextVisibility/>*/}
    {/*<CharacterCounter/>*/}
    {/*<LmsLearn/>*/}
-   <ListComponent/>
+   {/*<ListComponent/>*/}
+   <ImageCarousel/> 
+   <CountdownTimer/>
+
   
   
   </div>

@@ -1,0 +1,15 @@
+Task - 17/01/2025
+ create add points to perform crud for books with following attributes
+1. book id
+2. title
+3. author
+4. publication
+5. price
+6. publication here cd
+
+
+
+// 20/01/2025
+Task -
+1. implement image changer ( carouse) take 4-images , replace image at interval of 4 second
+2. implement count down timer using useEffect start 04:00  03: 59  03:00  02:59  00:00   
