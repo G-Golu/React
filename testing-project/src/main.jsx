@@ -1,6 +1,8 @@
 //import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
+import Monolithic from './Nv/monolithic.jsx'
+// import MultipleState from './Nv/reducerExample2.jsx'
 //import StateExamp1 from './Nv/StateExamp1'
 //import TableDisp from './Nv/Exercise_1';
 //import EmailValidator from './Nv/Excersice_1_Tas-2';
@@ -8,13 +10,16 @@ import './index.css'
 // import CharacterCounter from './Nv/Ex_1_T-4';
  //import LmsLearn from './Nv/test';
 //import ListComponent from './Nv/useeffectclass';
-import ImageCarousel from './Nv/imagechanger'
+//import ImageCarousel from './Nv/imagechanger'
 //import App from './App.jsx'
 //import IterableExample from './Nv/objiter.jsx'
 //import StateExample2 from './Nv/statexamani.jsx'
 //import StateExample from './Nv/state.jsx'
 //import IterableExample from './Nv/objiter.jsx'
-import CountdownTimer from './Nv/count_down.jsx'
+//import CountdownTimer from './Nv/count_down.jsx'
+// import Reduceer1 from './Nv/reducerExample'
+
+
 createRoot(document.getElementById('root')).render(
   <div>
     
@@ -29,8 +34,12 @@ createRoot(document.getElementById('root')).render(
    {/*<CharacterCounter/>*/}
    {/*<LmsLearn/>*/}
    {/*<ListComponent/>*/}
-   <ImageCarousel/> 
-   <CountdownTimer/>
+   {/*<ImageCarousel/> 
+   <CountdownTimer/> */}
+   {/* < Reduceer1/> */}
+    <Monolithic/>
+
+  {/* <MultipleState/> */}
 
   
   
