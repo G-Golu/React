@@ -2,6 +2,7 @@
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import Monolithic from './Nv/monolithic.jsx'
+import Addarticle from './Nv/addarticle.jsx'
 // import MultipleState from './Nv/reducerExample2.jsx'
 //import StateExamp1 from './Nv/StateExamp1'
 //import TableDisp from './Nv/Exercise_1';
@@ -38,6 +39,7 @@ createRoot(document.getElementById('root')).render(
    <CountdownTimer/> */}
    {/* < Reduceer1/> */}
     <Monolithic/>
+    <Addarticle/>
 
   {/* <MultipleState/> */}
 
