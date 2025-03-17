@@ -1,8 +1,9 @@
 //import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import Monolithic from './Nv/monolithic.jsx'
-import Addarticle from './Nv/addarticle.jsx'
+// import Monolithic from './Nv/monolithic.jsx'
+// import Addarticle from './Nv/addarticle.jsx'
+import MVCExmp from './Nv/modelpart.jsx'
 // import MultipleState from './Nv/reducerExample2.jsx'
 //import StateExamp1 from './Nv/StateExamp1'
 //import TableDisp from './Nv/Exercise_1';
@@ -38,8 +39,9 @@ createRoot(document.getElementById('root')).render(
    {/*<ImageCarousel/> 
    <CountdownTimer/> */}
    {/* < Reduceer1/> */}
-    <Monolithic/>
-    <Addarticle/>
+    {/* <Monolithic/>
+    <Addarticle/> */}
+    < MVCExmp />
 
   {/* <MultipleState/> */}
 
